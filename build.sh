@@ -11,6 +11,8 @@ version=`build/kvant version`
 echo $version
 
 build/kvant node
-cp build/kvant release/kvant_${version}
+filename="kvant_${version}"
+echo $filename > bin_name
+cp build/kvant release/$filename
 
 
