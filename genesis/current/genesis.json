@@ -26,7 +26,7 @@
       {
         "reward_address": "Mx777515e398d25021445d20f0647b4f2de3b27777",
         "total_bip_stake": "1000000000000000000000000",
-        "pub_key": "Mp41b7bd1ffe993515af6afec145b0495653839505dd48ed068705506f5e9232d2",
+        "pub_key": "Kp270d08d347e2d200cacd008a9bfa2fe744b73dfd0cbfa5f0bba4ee1551da5a42",
         "commission": "10",
         "accum_reward": "0",
         "absent_times": "________________________"
@@ -37,7 +37,7 @@
         "reward_address": "Mx6e27feb873a7f2df67f53cb16d8229e3595bff03",
         "owner_address": "Mx6e27feb873a7f2df67f53cb16d8229e3595bff03",
         "total_bip_stake": "10",
-        "pub_key": "Mp41b7bd1ffe993515af6afec145b0495653839505dd48ed068705506f5e9232d2",
+        "pub_key": "Kp270d08d347e2d200cacd008a9bfa2fe744b73dfd0cbfa5f0bba4ee1551da5a42",
         "commission": "10",
         "stakes": [
           {
