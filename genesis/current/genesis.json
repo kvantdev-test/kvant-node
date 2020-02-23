@@ -1,0 +1,69 @@
+{
+  "genesis_time": "2020-02-12T21:55:00Z",
+  "chain_id": "kvant-01",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "10000000",
+      "max_gas": "100000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "1000",
+      "max_age_num_blocks": "1000",
+      "max_age_duration": "86400000000000"
+
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "app_state": {
+    "start_height": "0",
+    "validators": [
+      {
+        "reward_address": "Mx777515e398d25021445d20f0647b4f2de3b27777",
+        "total_bip_stake": "1000000000000000000000000",
+        "pub_key": "Mp41b7bd1ffe993515af6afec145b0495653839505dd48ed068705506f5e9232d2",
+        "commission": "10",
+        "accum_reward": "0",
+        "absent_times": "________________________"
+      }
+    ],
+    "candidates": [
+      {
+        "reward_address": "Mx6e27feb873a7f2df67f53cb16d8229e3595bff03",
+        "owner_address": "Mx6e27feb873a7f2df67f53cb16d8229e3595bff03",
+        "total_bip_stake": "10",
+        "pub_key": "Mp41b7bd1ffe993515af6afec145b0495653839505dd48ed068705506f5e9232d2",
+        "commission": "10",
+        "stakes": [
+          {
+            "owner": "Mx6e27feb873a7f2df67f53cb16d8229e3595bff03",
+            "coin": "MNT",
+            "value": "10",
+            "bip_value": "10"
+          }
+        ],
+        "created_at_block": "1",
+        "status": 2
+      }
+    ],
+    "accounts": [
+      {
+        "address": "Mx777515e398d25021445d20f0647b4f2de3b27777",
+        "balance": [
+          {
+            "coin": "MNT",
+            "value": "100000000000000000000000000000000"
+          }
+        ],
+        "nonce": "0"
+      }
+    ],
+    "max_gas": "100000",
+    "total_slashed": "0"
+  }
+}
