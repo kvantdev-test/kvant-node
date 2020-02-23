@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2020-02-12T21:55:00Z",
-  "chain_id": "kvant-01",
+  "genesis_time": "2020-02-23T12:00:00Z",
+  "chain_id": "kvant-02",
   "consensus_params": {
     "block": {
       "max_bytes": "10000000",
@@ -42,7 +42,7 @@
         "stakes": [
           {
             "owner": "Mx6e27feb873a7f2df67f53cb16d8229e3595bff03",
-            "coin": "MNT",
+            "coin": "KWANT",
             "value": "10",
             "bip_value": "10"
           }
@@ -56,7 +56,7 @@
         "address": "Mx777515e398d25021445d20f0647b4f2de3b27777",
         "balance": [
           {
-            "coin": "MNT",
+            "coin": "KWANT",
             "value": "100000000000000000000000000000000"
           }
         ],

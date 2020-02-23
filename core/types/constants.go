@@ -18,12 +18,12 @@ func getBaseCoin(chainID ChainID) CoinSymbol {
 
 	switch chainID {
 	case ChainMainnet:
-		copy(coin[:], "BIP")
+		copy(coin[:], "KVANT")
 	case ChainTestnet:
-		copy(coin[:], "MNT")
+		copy(coin[:], "KWANT")
 	}
 
-	coin[4] = byte(0)
+	coin[5] = byte(0)
 
 	return coin
 }
