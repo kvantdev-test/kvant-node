@@ -1,6 +1,6 @@
 {
   "genesis_time": "2020-02-23T12:00:00Z",
-  "chain_id": "kvant-02",
+  "chain_id": "kvant-03",
   "consensus_params": {
     "block": {
       "max_bytes": "10000000",

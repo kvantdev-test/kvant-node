@@ -29,6 +29,6 @@ func showValidator(cmd *cobra.Command, args []string) error {
 	}
 
 	pv := privval.LoadFilePV(keyFilePath, cfg.PrivValidatorStateFile())
-	fmt.Printf("Mp%x\n", pv.GetPubKey().Bytes()[5:])
+	fmt.Printf("Kp%x\n", pv.GetPubKey().Bytes()[5:])
 	return nil
 }

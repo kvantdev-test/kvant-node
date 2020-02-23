@@ -95,7 +95,7 @@ func Handler(h http.Handler) http.Handler {
 				query.Set(key, fmt.Sprintf("\"%s\"", val))
 			}
 
-			if strings.HasPrefix(val, "Mp") {
+			if strings.HasPrefix(val, "Kp") {
 				query.Set(key, fmt.Sprintf("\"%s\"", val))
 			}
 		}

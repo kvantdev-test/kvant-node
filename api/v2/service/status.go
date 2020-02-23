@@ -26,7 +26,7 @@ func (s *Service) Status(context.Context, *empty.Empty) (*pb.StatusResponse, err
 		CatchingUp:        result.SyncInfo.CatchingUp,
 		PublicKey: &pb.StatusResponse_PubKey{
 			//Type:  "todo",
-			Value: fmt.Sprintf("Mp%x", result.ValidatorInfo.PubKey.Bytes()[5:]),
+			Value: fmt.Sprintf("Kp%x", result.ValidatorInfo.PubKey.Bytes()[5:]),
 		},
 	}, nil
 }

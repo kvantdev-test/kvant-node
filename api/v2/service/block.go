@@ -98,7 +98,7 @@ func (s *Service) Block(_ context.Context, req *pb.BlockRequest) (*pb.BlockRespo
 			}
 
 			validators = append(validators, &pb.BlockResponse_Validator{
-				PublicKey: fmt.Sprintf("Mp%x", tmval.PubKey.Bytes()[5:]),
+				PublicKey: fmt.Sprintf("Kp%x", tmval.PubKey.Bytes()[5:]),
 				Signed:    signed,
 			})
 		}

@@ -273,7 +273,7 @@ func (p *Pubkey) SetBytes(b []byte) {
 func (p Pubkey) Bytes() []byte { return p[:] }
 
 func (p Pubkey) String() string {
-	return fmt.Sprintf("Mp%x", p[:])
+	return fmt.Sprintf("Kp%x", p[:])
 }
 
 func (p Pubkey) MarshalText() ([]byte, error) {
