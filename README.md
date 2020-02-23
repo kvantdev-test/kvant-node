@@ -1,3 +1,3 @@
 # kvant-node
 
-v.1.2.08
+v.1.2.12 full beta
