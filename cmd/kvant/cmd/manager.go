@@ -9,7 +9,7 @@ import (
 
 var ManagerCommand = &cobra.Command{
 	Use:                "manager",
-	Short:              "Minter manager execute command",
+	Short:              "Kvant manager execute command",
 	DisableFlagParsing: true,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		newArgs := setParentFlags(cmd, args)
@@ -23,7 +23,7 @@ var ManagerCommand = &cobra.Command{
 
 var ManagerConsole = &cobra.Command{
 	Use:                "console",
-	Short:              "Minter CLI manager",
+	Short:              "Kvant CLI manager",
 	DisableFlagParsing: true,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		_ = setParentFlags(cmd, args)

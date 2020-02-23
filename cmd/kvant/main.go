@@ -12,8 +12,8 @@ func main() {
 		cmd.RunNode,
 		cmd.ShowNodeId,
 		cmd.ShowValidator,
-		cmd.ManagerCommand,
-		cmd.ManagerConsole,
+//		cmd.ManagerCommand,
+//		cmd.ManagerConsole,
 		cmd.VerifyGenesis,
 		cmd.Version)
 
