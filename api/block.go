@@ -95,7 +95,7 @@ func Block(height int64) (*BlockResponse, error) {
 		}
 
 		txs[i] = BlockTransactionResponse{
-			Hash:        fmt.Sprintf("Mt%x", rawTx.Hash()),
+			Hash:        fmt.Sprintf("Kt%x", rawTx.Hash()),
 			RawTx:       fmt.Sprintf("%x", []byte(rawTx)),
 			From:        sender.String(),
 			Nonce:       tx.Nonce,
