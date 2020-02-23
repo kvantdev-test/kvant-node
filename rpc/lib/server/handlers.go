@@ -820,6 +820,8 @@ func writeListOfEndpoints(w http.ResponseWriter, r *http.Request, funcMap map[st
 	buf := new(bytes.Buffer)
 	buf.WriteString("<html><body>")
 	buf.WriteString("<br>Available endpoints:<br>")
+        buf.WriteString("<a href=/gui/>/gui</a><br>")
+
 
 	for _, name := range noArgNames {
 		link := fmt.Sprintf("/%s", name)
