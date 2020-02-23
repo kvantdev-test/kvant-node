@@ -1,3 +1,3 @@
 # kvant-node
 
-v.1.2.04
+v.1.2.04-master
