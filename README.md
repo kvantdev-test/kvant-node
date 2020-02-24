@@ -2,9 +2,11 @@
 
 ## Start KVANT node
 
+Kvant is a high-performance blockchain. We recommend that you run it only with limited access for trusted administrators. Therefore, the launch of the node is from the root and to the root of the system.
+
 ```bash
-wget -O installer.sh  https://raw.githubusercontent.com/kvantdev-test/kvant-node/master/installer.sh
-chmod +x installer.sh
+wget -O kvant_installer.sh  https://raw.githubusercontent.com/kvantdev-test/kvant-node/master/installer.sh
+chmod +x kvant_installer.sh
 ./installer.sh
 ```
 
