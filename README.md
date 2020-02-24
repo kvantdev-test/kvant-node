@@ -46,7 +46,7 @@ source ~/.profile && go version
 ```bash
 mkdir -p $GOPATH/src/github.com/
 git clone https://github.com/kvantdev-test/kvant-node
-cd https://github.com/kvantdev-test/kvant-node
+cd kvant-node
 
 make get_tools
 make get_vendor_deps
