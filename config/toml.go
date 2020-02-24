@@ -226,5 +226,5 @@ prometheus_listen_addr = "{{ .Instrumentation.PrometheusListenAddr }}"
 max_open_connections = {{ .Instrumentation.MaxOpenConnections }}
 
 # Instrumentation namespace
-namespace = "minter"
+namespace = "kvant"
 `

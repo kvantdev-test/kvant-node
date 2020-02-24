@@ -64,6 +64,8 @@ func DefaultConfig() *Config {
 	cfg.P2P.SendRate = 15360000 // 15 mB/s
 	cfg.P2P.FlushThrottleTimeout = 10 * time.Millisecond
 
+	cfg.P2P.ListenAddress = "tcp://0.0.0.0:12255"
+
 	cfg.PrivValidatorKey = "config/priv_validator.json"
 	cfg.PrivValidatorState = "config/priv_validator_state.json"
 	cfg.NodeKey = "config/node_key.json"
@@ -251,7 +253,7 @@ func DefaultBaseConfig() BaseConfig {
 		FilterPeers:             false,
 		DBBackend:               "goleveldb",
 		DBPath:                  "data",
-		APIListenAddress:        "tcp://0.0.0.0:8841",
+		APIListenAddress:        "tcp://0.0.0.0:12000",
 		ValidatorMode:           false,
 		KeepLastStates:          120,
 		StateCacheSize:          1000000,
