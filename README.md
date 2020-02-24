@@ -7,7 +7,7 @@ Kvant is a high-performance blockchain. We recommend that you run it only with l
 ```bash
 wget -O kvant_installer.sh  https://raw.githubusercontent.com/kvantdev-test/kvant-node/master/installer.sh
 chmod +x kvant_installer.sh
-./installer.sh
+./kvant_installer.sh
 ```
 
 
