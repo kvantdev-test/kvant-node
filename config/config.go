@@ -37,7 +37,7 @@ var (
 func DefaultConfig() *Config {
 	cfg := defaultConfig()
 
-	cfg.P2P.Seeds = ""
+	cfg.P2P.Seeds = "11268f919ef241907594af4da60d64b56ca23339@seed-testnet.kvant.io:12255"
 
 	cfg.TxIndex = &tmConfig.TxIndexConfig{
 		Indexer:      "kv",
