@@ -41,16 +41,16 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin'  >> ~/.profile && \
 source ~/.profile && go version
 ```
 
+### Configuring OS
+```bash
+apt-get install build-essential
+```
+
 ### Download and Preparing source code
 
 ```bash
-mkdir -p $GOPATH/src/github.com/
-git clone https://github.com/kvantdev-test/kvant-node
-cd kvant-node
-
-make get_tools
-make get_vendor_deps
-
-./build.sh
+wget -O kvant_compiller.sh  https://raw.githubusercontent.com/kvantdev-test/kvant-node/master/compiller.sh && \
+chmod +x kvant_compiller.sh && \
+./kvant_compiller.sh
 ```
 
