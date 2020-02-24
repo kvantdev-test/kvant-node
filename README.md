@@ -41,4 +41,16 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin'  >> ~/.profile && \
 source ~/.profile && go version
 ```
 
+### Download and Preparing source code
+
+```bash
+mkdir -p $GOPATH/src/github.com/
+git clone https://github.com/kvantdev-test/kvant-node
+cd https://github.com/kvantdev-test/kvant-node
+
+make get_tools
+make get_vendor_deps
+
+./build.sh
+```
 
