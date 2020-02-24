@@ -31,10 +31,14 @@ wget https://github.com/google/leveldb/archive/v1.20.tar.gz && \
 
 ### Install GOLANG
 
+```bash
 wget -O go.tgz https://dl.google.com/go/go1.13.8.linux-amd64.tar.gz && \
 tar xzf go.tgz && \
 chown -R root:root ./go && \
 mv go /usr/local && \
 echo export GOPATH=/d01/go >> ~/.profile && \
-echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin'  >> ~/.profile
+echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin'  >> ~/.profile && \
+source ~/.profile && go version
+```
+
 
